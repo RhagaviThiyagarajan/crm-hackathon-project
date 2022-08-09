@@ -1,12 +1,11 @@
-import { Dashboard } from "./Dashboard";
-import App from "../App";
 
 
-function TicketPage()
+
+export function TicketPage()
 {
     return(
         <div>
-            
+          TicketPage  
         </div>
     )
 }

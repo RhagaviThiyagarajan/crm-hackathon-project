@@ -1,4 +1,4 @@
-import App from './App.js'
+
 export function ProgressDisplay()
 {
 return(
