@@ -55,3 +55,26 @@ overflow: scroll;
   width:100%;
   
 }
+.ticket-card
+{
+  display:flex;
+  width:100%;
+
+}
+
+.ticket-card #link
+{
+  background-color: aliceblue;
+  margin:2px;
+  padding:30px;
+  width:100%;
+  display:flex;
+  align-items:center;
+}
+
+.ticket-card .ticket-color
+{
+  width:15px !important;
+  margin:2px;
+  padding:10px !important;
+}

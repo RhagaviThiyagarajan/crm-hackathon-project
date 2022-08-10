@@ -8,7 +8,7 @@ export function Nav()
     const navigate=useNavigate()
 return(
     <Nav className="nav">
-       <div className="logo-container">
+       <div className="logo-container" onClick={()=>navigate('/')}>
         <img src={logo} alt="logo"/>
        </div>
        
