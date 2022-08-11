@@ -7,7 +7,10 @@ const cors = require('cors')
 require('dotenv').config()
 const axios = require('axios')
 
-const url = 'https://cdb2af0e-a12c-4551-9821-140819ba7a8a-us-east1.apps.astra.datastax.com/api/rest/v2/namespaces/datas/collections/tasks'
+const url = process.env.URL
+
+//'https://cdb2af0e-a12c-4551-9821-140819ba7a8a-us-east1.apps.astra.datastax.com/api/rest/v2/namespaces/datas/collections/tasks'
+
 const token = process.env.AS_TOKEN
 
 const app = express()

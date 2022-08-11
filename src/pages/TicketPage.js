@@ -50,7 +50,7 @@ export function TicketPage  ({ editMode }){
 
   const fetchData = async () => {
     const response = await axios.get(`http://localhost:8000/tickets/${id}`)
-    console.log('AAAAAA', response)
+    console.log('success', response)
     setFormData(response.data.data)
   }
 
@@ -92,7 +92,7 @@ export function TicketPage  ({ editMode }){
             <label>Category</label>
             <select
               name="category"
-              value={formData.category}
+              value={formData.category} 
               onChange={handleChange}
             >
               {categories?.map((category, _index) => (
